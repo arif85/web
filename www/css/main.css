@@ -37,8 +37,8 @@ body{
 .nav {
     margin-top: 5px;
     padding-top: 2px;
-    padding-right: 500px;
-    padding-left: 500px;
+    /*padding-right: 500px;
+    padding-left: 500px;*/
     padding-bottom: 2px;
     background-color: #361C7C;
     overflow: hidden;
