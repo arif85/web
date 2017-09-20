@@ -21,13 +21,19 @@
         <a href="partners.html">Наши партнеры</a>
         <a href="contacts.html">Контакты</a>
     </div>
-    <h2>Контакты</h2><br>
-    <p>Записаться на прием специалиста</p>
-    <p>Имя: <br><input type="textfield"></p><br>
-    <p>Фамилия: <br><input type="textfield" name="" id=""></p><br>
-    <p>Коментарий <br><textarea rows="10" cols="40"></textarea></p><br>
-    <input type="button" value="Записаться"><br>
-    <div id="map" style="width:50%;height:450px"></div>
+    <div class="cont"><h2>Контакты</h2><br>
+        <div class="cont1"><p>Адрес: г. Киев</p>
+            <p>Telephone: 1234567489</p>
+            <p>Режим работы: 0.00</p>
+            <p>Записаться на прием специалиста</p>
+            </div>
+            <div class="fields"><p>Имя: <br><br><input type="textfield" placeholder="Имя"></p><br>
+                <p>Фамилия: <br><br><input type="textfield" placeholder="Фамилия"></p><br>
+                <p>Коментарий <br><br><textarea rows="10" cols="70"  placeholder="Тут Вы можете оставить свой коментарий..."></textarea></p><br>
+                <!--<input type="button" value="Записаться"><br>--></div>
+        <div class="submit"><a href="#">Записаться</a></div>    
+    </div>  
+    <div class="map" id="map" style="width:50%;height:460px"></div>
     <script>
     function myMap() {
       var myCenter = new google.maps.LatLng(50.384996,30.471217);
@@ -36,12 +42,13 @@
       var map = new google.maps.Map(mapCanvas, mapOptions);
       var marker = new google.maps.Marker({position:myCenter});
       marker.setMap(map);
+      title: 'Клиника'
     }
     </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkYgilbKVmamYkAo-P69MqoDuBqfZLpZc&callback=myMap&language=ru&region=RU"></script>
-    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBkYgilbKVmamYkAo-P69MqoDuBqfZLpZc&callback=myMap&language=ru&region=RU"></script><br>
 
-    <div class="footer"></div>
+
+    <!--<div class="footer"></div>-->
     
        
 </body>

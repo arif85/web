@@ -1,7 +1,7 @@
 
 *{
-    margin: 10;
-    padding: 20;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -80,6 +80,78 @@ body{
     color: #313F3F;
 
 }
+
+.cont {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 80px;
+    float: left;   
+}
+
+.cont1 > p{
+    padding-bottom: 5px;
+    
+}
+
+.fields > p{
+    padding-bottom: 5px;
+
+}
+
+
+
+.map {
+    margin-top: 70px;
+    margin-right: 100px;
+    margin-left: 60px;
+    float: left;
+    padding-right: 0px;
+
+}
+
+.submit > a {
+    background-color: #361C7C;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.partners {
+    margin-top: 20px;
+    display: -webkit-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.partners img{
+    width: 220px;
+    height: 145px;
+}
+
+.hpartners {
+    padding-top: 20px;
+    font-size: 70px;
+    text-align: center;
+    color: #090966;
+}
+
+
+.partners > div {
+    align-items: center;
+    padding-top: 60px;    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
 
 .footer {
         margin-top: 10px;
