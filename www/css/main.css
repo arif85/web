@@ -122,7 +122,35 @@ body{
     cursor: pointer;
 }
 
+.partners {
+    margin-top: 20px;
+    display: -webkit-box;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-right: 200px;
+    padding-left: 200px;
+}
 
+.partners img{
+    width: 220px;
+    height: 145px;
+}
+
+.hpartners {
+    padding-top: 20px;
+    font-size: 70px;
+    text-align: center;
+    color: #090966;
+}
+
+
+.partners > div {
+    align-items: center;
+    padding-top: 60px;    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
 
 
 .footer {
