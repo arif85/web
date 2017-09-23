@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body{
@@ -55,6 +56,9 @@ body{
 }
 
 .nav a:hover {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
     background-color: #ddd;
     color: black;
 }
@@ -66,7 +70,7 @@ body{
 
 #header{
     color: black;
-    font: italic; 
+    font: italic;
 }
 
 .header2 {
@@ -81,16 +85,21 @@ body{
 
 }
 
+.blockdipl{
+
+    display: flex;
+
+}
 .cont {
     margin-top: 70px;
     margin-left: 100px;
     margin-right: 80px;
-    float: left;   
+    float: left;
 }
 
 .cont1 > p{
     padding-bottom: 5px;
-    
+
 }
 
 .fields > p{
@@ -146,7 +155,7 @@ body{
 
 .partners > div {
     align-items: center;
-    padding-top: 60px;    
+    padding-top: 60px;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 50px;
@@ -154,16 +163,11 @@ body{
 
 
 .footer {
-        margin-top: 10px;
-        position: relative;
+        margin-top: 45px;
+        display: flow-root;
         z-index: 6;
         height: 166px;
         background-color: #361C7C;
         color: #fff;
         font-size: 14px;
     }
-
-
-
-
-
