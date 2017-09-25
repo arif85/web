@@ -7,9 +7,42 @@
 }
 
 
-.header_nav ul {
+.header_nav{
+    height: 3em;
+    border-style: none;
+    z-index: 10000;
+    width: 100%;
+    position: fixed;
+    color: grey;
+}
+.header_nav h1{
+    font-weight: 500;
+    height: inherit;
+    left: 1.25em;
+    position: absolute;
+}
+.header_nav h1 a {
+    font-size: 1.5em;
+}
+
+.header_nav nav{
+    height: inherit;
+    line-height: inherit;
+    position: absolute;
+    top:1em;
+    right: 1.25em;
+}
+
+.header_nav nav > ul {
+    height: inherit;
     list-style: none;
 }
-.header_nav li {
+.header_nav nav> ul > li {
     display: inline-block;
+}
+
+.header_nav nav>ul>li>a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
 }
