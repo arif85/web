@@ -45,4 +45,9 @@
     display: inline-block;
     text-decoration: none;
     color: inherit;
+    padding-left: 2em;
 }
+
+.header_nav nav>ul>li>a:hover{
+    color: #65CECE;
+    }
