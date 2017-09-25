@@ -7,3 +7,9 @@
 }
 
 
+.header_nav ul {
+    list-style: none;
+}
+.header_nav li {
+    display: inline-block;
+}
