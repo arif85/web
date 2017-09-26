@@ -1,15 +1,14 @@
 *{
     box-sizing: border-box !important;
     margin: 0px;
-    /*border-color: grey;
-    border-style: double;*/
+    /*background-color: black;*/
     font-family: 'Khula', sans-serif;
 
 }
 
 
 .header_nav{
-    background: rgba(139, 12, 22, 0.83);
+    background: orangered;
     height: 3em;
     border-style: none;
     z-index: 10000;
@@ -62,7 +61,7 @@
 
 .header{
     /*position: relative;*/
-    background: rgba(139, 12, 22, 0.83);
+    background: orangered;
     background-position: center center;
     background-repeat: no-repeat;
     padding: 20em 0; 
@@ -71,9 +70,12 @@
 
 .header  h2{
     font-size: 50px;
-    color: #660505;
+    color: rgba(7, 236, 8, 0.97);
     width: 300px;
-    margin: 0 40%;    
+    margin: 0 40%;
+    padding: 3px;
+    top: 0;
+
 }
 
 .header h2:hover{
@@ -100,13 +102,13 @@ input[type=text] {
 }
 
 .subscribe > ul > li > a{
-    padding: 4px;
+    padding: 4px 8px;
     text-align: center;
-    border-style: groove;
+    border-style: none;
     border-color: none;
     border-radius: 10px;
     text-decoration: none;
-    background-color:  rgba(139, 12, 22, 0.83);
+    background-color: orangered;
     color:#fff;
     font-size: 20px;
 }
@@ -114,4 +116,10 @@ input[type=text] {
 .subscribe > ul >li >a:hover{
     background-color: #FFF;
     color:black;
+}
+
+.paragraph{
+    padding: 1em;
+    margin: 0 10%;
+    color: rgba(7, 236, 8, 0.97);
 }
