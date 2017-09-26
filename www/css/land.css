@@ -4,22 +4,29 @@
     /*border-color: grey;
     border-style: double;*/
     font-family: 'Khula', sans-serif;
+
 }
 
 
 .header_nav{
+    background: rgba(139, 12, 22, 0.83);
     height: 3em;
     border-style: none;
     z-index: 10000;
     width: 100%;
     position: fixed;
-    color: grey;
+    color: #1F1D1D;
 }
 .header_nav h1{
     font-weight: 500;
     height: inherit;
     left: 1.25em;
     position: absolute;
+}
+
+.header_nav h1:hover{
+    color: #FFF;
+
 }
 .header_nav h1 a {
     font-size: 1.5em;
@@ -49,6 +56,62 @@
 }
 
 .header_nav nav>ul>li>a:hover{
-    color: #65CECE;
+    color: #E5E8F1;
     }
 
+
+.header{
+    /*position: relative;*/
+    background: rgba(139, 12, 22, 0.83);
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20em 0; 
+    text-align: center;
+}
+
+.header  h2{
+    font-size: 50px;
+    color: #660505;
+    width: 300px;
+    margin: 0 40%;    
+}
+
+.header h2:hover{
+    color: #FFF;
+}
+
+.banner{
+    background-image: url("../img/italian-cars.jpg");
+}
+.subscribe > ul{
+    list-style: none;
+}
+.subscribe > ul >li{
+    display: inline-block;
+}
+input[type=text] {
+    width: 500px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 15px;
+    font: bold;
+}
+
+.subscribe > ul > li > a{
+    padding: 4px;
+    text-align: center;
+    border-style: groove;
+    border-color: none;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color:  rgba(139, 12, 22, 0.83);
+    color:#fff;
+    font-size: 20px;
+}
+
+.subscribe > ul >li >a:hover{
+    background-color: #FFF;
+    color:black;
+}
