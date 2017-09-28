@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box !important;
     margin: 0px;
-    /*background-color: black;*/
+    background: black;
     font-family: 'Khula', sans-serif;
 
 }
@@ -19,6 +19,7 @@
 .header_nav h1{
     font-weight: 500;
     height: inherit;
+    background: none;
     left: 1.25em;
     position: absolute;
 }
@@ -32,6 +33,7 @@
 }
 
 .header_nav nav{
+    background: none;
     height: inherit;
     line-height: inherit;
     position: absolute;
@@ -40,14 +42,17 @@
 }
 
 .header_nav nav > ul {
+    background: none;
     height: inherit;
     list-style: none;
 }
 .header_nav nav> ul > li {
+    background: none;
     display: inline-block;
 }
 
 .header_nav nav>ul>li>a{
+    background: inherit;
     display: inline-block;
     text-decoration: none;
     color: inherit;
@@ -60,17 +65,18 @@
 
 
 .header{
-    /*position: relative;*/
-    padding: 700px 0px 100px 0px;
-    background: orangered;
+    background-image: url("../img/italian-cars.jpg");
+    padding: 900px 0px 0px 0px;
+    /*background: black;*/
     background-position: center center;
     background-repeat: no-repeat;
     text-align: center;
 }
 
 .header  h2{
+    background: none;
     font-size: 50px;
-    color: rgba(7, 236, 8, 0.97);
+    color: orangered;
     width: 300px;
     margin: 0 39%;
     padding: 3px;
@@ -82,9 +88,6 @@
     color: #FFF;
 }
 
-.banner{
-    background-image: url("../img/italian-cars.jpg");
-}
 .subscribe > ul{
     padding: 1em;
     margin: 0 10%;
@@ -121,9 +124,10 @@ input[type=text] {
 }
 
 .paragraph{
+    background: none;
     padding: 1em;
     margin: 0 10%;
-    color: rgba(7, 236, 8, 0.97);
+    color: orangered;
 }
 
 .container{
@@ -131,16 +135,22 @@ input[type=text] {
     margin: 0; 
     background-color: black;
     width: 100%;
-    height: 50%;
+    height: 200px;
 
 }
 
 .container > ul > li{
     list-style: none;
     display: inline-block;
-}
+    }
 .container > ul>li>a {
     text-decoration: none;
     background-color: orangered;
     
+}
+
+.imghuracan{
+    height: 200px;
+    widows: 200px;
+    float: left;
 }
