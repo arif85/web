@@ -207,3 +207,28 @@ h3 {
     padding: 50px;
     float: left;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td {
+    text-align: left;
+    font-size: 25px;
+    font: bold;
+    padding-left:  50px ;
+    color: orangered;
+}
+
+.desc {
+    width: 50%;
+    height: 300px;
+    padding: 50px;
+}
+
+.desc p {
+    color: orangered;
+    font-size: 30px; 
+}
