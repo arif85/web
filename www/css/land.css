@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box !important;
     margin: 0px;
-    background: black;
+    /*background: black;*/
     font-family: 'Khula', sans-serif;
 
 }
@@ -66,11 +66,12 @@
 
 .header{
     background-image: url("../img/italian-cars.jpg");
-    padding: 900px 0px 0px 0px;
+    /*padding: 300px 0px 300px 0px;*/
     /*background: black;*/
     background-position: center center;
     background-repeat: no-repeat;
     text-align: center;
+    height: 1080px;
 }
 
 .header  h2{
@@ -79,7 +80,7 @@
     color: orangered;
     width: 300px;
     margin: 0 39%;
-    padding: 3px;
+    padding: 660px 0px 0px 0px;
     top: 0;
 
 }
@@ -135,7 +136,7 @@ input[type=text] {
     margin: 0; 
     background-color: black;
     width: 100%;
-    height: 200px;
+    height: 100px;
 
 }
 
@@ -149,8 +150,60 @@ input[type=text] {
     
 }
 
-.imghuracan{
-    height: 200px;
-    widows: 200px;
+.clearfix:after {
+    content: "."; 
+    display: block;  
+    clear: both;  
+    visibility: hidden; 
+    height: 0;
+  }
+.huracanbg{
+    background-image: url("../img/huracan.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+.centenariobg{
+    background-image: url("../img/centenario.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1080px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  #myBtn:hover {
+    background-color: #fff;
+    color: black;
+  }
+    
+
+.aventadorbg{
+    background-image: url("../img/aventador.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 1080px
+}
+
+
+h3 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 50px;
+    color: orangered;
+    padding: 50px;
     float: left;
 }
