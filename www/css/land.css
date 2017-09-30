@@ -179,7 +179,7 @@ input[type=text] {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: orangered;
+    background-color: greenyellow;
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -231,4 +231,66 @@ th, td {
 .desc p {
     color: orangered;
     font-size: 30px; 
+}
+
+.footer{
+    width: 100%;
+    background-color: orangered;
+    color: black;
+}
+
+.col{
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding: 4% 1%;
+}
+
+.col2{
+    display: inline-block;
+    width: 33%;
+    padding: 0 10% 0 10%;
+    vertical-align: top;
+    margin-bottom: 2%;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    font-size: 30px;
+}
+.follow{
+    list-style: none;
+    padding: 10px;
+    }
+.follow > ul > li {
+    display: inline-block;
+}
+
+.follow a{
+    text-decoration: none;
+    color: black;
+
+}
+.follow a:hover{
+    color: #fff;
+}
+
+.author{
+    width: 100%;
+    text-align: center;
+     
+}
+.author >ul>li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 5%;
+}
+
+.author > ul >li a{
+    color:black;
+    text-decoration: none;
 }
